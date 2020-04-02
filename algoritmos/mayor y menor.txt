@@ -1,0 +1,16 @@
+//Ingresas 2 notas y mostrar el mayor y el menor
+        
+        Scanner nm= new Scanner(System.in);
+        System.out.println("primer numero");
+        int n1 = nm.nextInt();
+        System.out.println("segundo numero");
+        int n2 = nm.nextInt();
+        
+        int mayor= n1;
+        int menor= n2;
+        
+        if(n1<n2){
+            mayor=n2;
+            
+            System.out.println("el numero mayor es: "+ n2);
+        }

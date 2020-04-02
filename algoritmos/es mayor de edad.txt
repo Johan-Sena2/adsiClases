@@ -1,0 +1,18 @@
+ //Ingresar el nombre y la edad y decir si es mayor
+        
+        Scanner ten = new Scanner (System.in);
+        String nombre;
+        int edad ;
+        System.out.println("ingrese el nombre");
+        nombre = ten.nextLine();
+        System.out.println("ingrese edad");
+        edad = ten.nextInt();
+        
+        
+       
+        if (edad>18);
+        System.out.println(nombre + "es mayor de edad: "+ edad);
+        
+        
+        }
+    }
